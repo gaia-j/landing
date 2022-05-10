@@ -1,24 +1,42 @@
 import logo from './logo.svg';
 import './App.css';
-
+import styled from 'styled-components';
 function App() {
   return (
-    <div className="App">
+    <styled.div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         Gaia
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <br/> 
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
       </header>
-    </div>
+      <body>
+        <div>
+          <p>Fodase</p>
+        </div>
+      </body>
+    </styled.div>
   );
 }
 
