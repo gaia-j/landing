@@ -1,50 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import styled from 'styled-components';
+import {AppWrap} from "./styled";
+import {AiFillGithub} from "react-icons/ai"
+const style = { color: "white", fontSize: "1.5em" }
 function App() {
   return (
-<<<<<<< HEAD
-    <div className="App">
-      <header className="hed">
-        <p>
-          Hugo Gaia
-=======
-    <styled.div className="App">
-      <header className="App-header">
-        <p>
-         Gaia
->>>>>>> f89f841d6c7a65c4444c03ee8506511e1671e9e7
-        </p>
-        <br/> 
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-
-      </header>
-      <body>
-        <div>
-          <p>Fodase</p>
-        </div>
-      </body>
-    </styled.div>
-  );
+      <AppWrap>
+          <div>Fodase</div>
+          <AiFillGithub style={style}/>
+      </AppWrap>
+      );
 }
 
 export default App;

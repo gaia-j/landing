@@ -8,4 +8,4 @@ na área de programação <br> (e, quem sabe, em outras também.)
 Esse projeto é realizado utilizando reactJS. <br>
 Caso goste, sinta-se livre para baixar, editar utilizar o repositório como bem entender.
 
-
+<img src=<img src="./public/img/main.png" width="900" />
